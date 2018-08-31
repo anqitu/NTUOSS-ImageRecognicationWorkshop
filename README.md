@@ -304,10 +304,10 @@ validation_data = datagen_val.flow_from_directory(
 
 The running of above code might take a while.
 
-As we have 200 images of each class for train set and 100 images of each class for validation set, you should see this response:
+As we have 2000 images of each class for train set and 100 images of each class for validation set, you should see this response:
 ```
-Found 400 images belonging to 2 classes.
-Found 200 images belonging to 2 classes.
+Found 4000 images belonging to 2 classes.
+Found 2000 images belonging to 2 classes.
 ```
 
 Then, running the code below will let you see the class indices of the data generator.
